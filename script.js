@@ -60,8 +60,41 @@ let log = console.log;
 
 ////////////////////////////////////////// unit 7 /////////////////////////////////////
 
+// function Dog(name, color) {
+//   this.name = name,
+//   this.color = color,
+//   this.numLegs = 4
+//   }
+
+//   let terrier = new Dog("Spot", "red");
+
 ////////////////////////////////////////// unit 8 /////////////////////////////////////
 
+// function House(numBedrooms) {
+//   this.numBedrooms = numBedrooms;
+// }
+
+// // Змініть код лише під цим рядком
+
+// let myHouse = new House(3);
+// myHouse instanceof House;
+
 ////////////////////////////////////////// unit 9 /////////////////////////////////////
+
+// function Bird(name) {
+//   this.name = name;
+//   this.numLegs = 2;
+// }
+
+// let canary = new Bird("Tweety");
+// let ownProps = [];
+
+// // Змініть код лише під цим рядком
+
+// for (let property in canary) {
+//   if (canary.hasOwnProperty(property)) {
+//     ownProps.push(property);
+//   }
+// }
 
 ////////////////////////////////////////// unit 10 /////////////////////////////////////
