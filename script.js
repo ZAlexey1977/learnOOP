@@ -211,8 +211,175 @@ let log = console.log;
 
 ////////////////////////////////////////// unit 17 /////////////////////////////////////
 
+// function Cat(name) {
+//   this.name = name;
+// }
+
+// Cat.prototype = {
+//   constructor: Cat,
+
+// };
+
+// function Bear(name) {
+//   this.name = name;
+// }
+
+// Bear.prototype = {
+//   constructor: Bear,
+
+// };
+
+// function Animal() { }
+
+// Animal.prototype = {
+//   constructor: Animal,
+//   eat: function() {
+//     console.log("nom nom nom");
+//   }
+// };
+
 ////////////////////////////////////////// unit 18 /////////////////////////////////////
+
+// function Animal() { }
+
+// Animal.prototype = {
+//   constructor: Animal,
+//   eat: function () {
+//     console.log("nom nom nom");
+//   }
+// };
+
+// // Змініть код лише під цим рядком
+
+// let duck = Object.create(Animal.prototype); // Змініть цей рядок
+// let beagle = Object.create(Animal.prototype); // Змініть цей рядок
 
 ////////////////////////////////////////// unit 19 /////////////////////////////////////
 
+// function Animal() { }
+
+// Animal.prototype = {
+//   constructor: Animal,
+//   eat: function () {
+//     console.log("nom nom nom");
+//   }
+// };
+
+// function Dog() { }
+
+// // Змініть код лише під цим рядком
+// Dog.prototype = Object.create(Animal.prototype);
+
+// let beagle = new Dog();
+
 ////////////////////////////////////////// unit 20 /////////////////////////////////////
+
+// function Dog() { }
+
+// Bird.prototype = Object.create(Animal.prototype);
+// Dog.prototype = Object.create(Animal.prototype);
+
+// // Змініть код лише під цим рядком
+
+// Bird.prototype.constructor = Bird;
+// Dog.prototype.constructor = Dog;
+
+// let duck = new Bird();
+// let beagle = new Dog();
+
+////////////////////////////////////////// unit 21 /////////////////////////////////////
+
+// function Animal() { }
+// Animal.prototype.eat = function() { console.log("nom nom nom"); };
+
+// function Dog() { }
+
+// // Змініть код лише під цим рядком
+
+// Dog.prototype = Object.create(Animal.prototype);
+// Dog.prototype.constructor = Dog;
+// Dog.prototype.bark = function (){
+//   console.log("Woof!")
+// }
+
+// // Змініть код лише над цим рядком
+
+// let beagle = new Dog();
+
+////////////////////////////////////////// unit 22 /////////////////////////////////////
+
+// function Bird() { }
+
+// Bird.prototype.fly = function () { return "I am flying!"; };
+
+// function Penguin() { }
+// Penguin.prototype = Object.create(Bird.prototype);
+// Penguin.prototype.constructor = Penguin;
+
+// // Змініть код лише під цим рядком
+
+// Penguin.prototype.fly = function () {
+//   return "Alas, this is a flightless bird.";
+// }
+
+// // Змініть код лише над цим рядком
+
+// let penguin = new Penguin();
+// console.log(penguin.fly());
+
+////////////////////////////////////////// unit 23 /////////////////////////////////////
+
+// let bird = {
+//   name: "Donald",
+//   numLegs: 2
+// };
+
+// let boat = {
+//   name: "Warrior",
+//   type: "race-boat"
+// };
+
+// // Змініть код лише під цим рядком
+
+// let glideMixin = function(obj){
+//     obj.glide = function(){
+//       console.log("slow mowe")
+//     }
+// }
+
+// glideMixin(bird);
+// glideMixin(boat);
+
+////////////////////////////////////////// unit 24 /////////////////////////////////////
+
+// function Bird() {
+//   let weight = 15;
+//   this.getWeight = function () {
+//     return weight;
+//   }
+
+// }
+
+////////////////////////////////////////// unit 25 /////////////////////////////////////
+
+// (function () {
+//   console.log("A cozy nest is ready");
+// })()
+
+////////////////////////////////////////// unit 26 /////////////////////////////////////
+
+// let funModule = (function(){
+//   return {
+//   isCuteMixin: function(obj) {
+//   obj.isCute = function() {
+//     return true;
+//   }
+// },
+//   singMixin: function(obj) {
+//   obj.sing = function() {
+//     console.log("Singing to an awesome tune");
+//   }
+// } }
+// })();
+
+
