@@ -135,7 +135,36 @@ let log = console.log;
 
 ////////////////////////////////////////// unit 12 /////////////////////////////////////
 
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// // Змініть код лише під цим рядком
+// function joinDogFraternity(candidate) {
+//   if (candidate.constructor === Dog) {
+//     return true
+//   }
+//   else {
+//     return false
+//   }
+// }
+
 ////////////////////////////////////////// unit 13 /////////////////////////////////////
+
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// Dog.prototype = {
+//   // Змініть код лише під цим рядком
+//   numLegs: 4,
+//   eat: function () {
+//     console.log("nom nom nom");
+//   },
+//   describe: function () {
+//     console.log("My name is " + this.name);
+//   }
+// };
 
 ////////////////////////////////////////// unit 14 /////////////////////////////////////
 
