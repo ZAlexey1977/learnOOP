@@ -168,9 +168,46 @@ let log = console.log;
 
 ////////////////////////////////////////// unit 14 /////////////////////////////////////
 
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// // Змініть код лише під цим рядком
+// Dog.prototype = {
+//   constructor: Dog,
+//   numLegs: 4,
+//   eat: function () {
+//     console.log("nom nom nom");
+//   },
+//   describe: function () {
+//     console.log("My name is " + this.name);
+//   }
+// };
+
 ////////////////////////////////////////// unit 15 /////////////////////////////////////
 
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// let beagle = new Dog("Snoopy");
+
+// // Змініть код лише під цим рядком
+
+// Dog.prototype.isPrototypeOf(beagle);
+
 ////////////////////////////////////////// unit 16 /////////////////////////////////////
+
+// function Dog(name) {
+//   this.name = name;
+// }
+
+// let beagle = new Dog("Snoopy");
+
+// Dog.prototype.isPrototypeOf(beagle);  // показує правильно
+
+// // Виправте код нижче так, щоб він мав логічне значення
+// Object.prototype.isPrototypeOf(Dog.prototype);
 
 ////////////////////////////////////////// unit 17 /////////////////////////////////////
 
